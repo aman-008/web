@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Questions</title>
+</head>
+<body>
+    <table border="black">
+        <caption>A test table with merged cells</caption>
+        <tbody>
+            <tr>
+                <td rowspan="2"></td>
+                <td colspan="2">Average</td>
+                <td rowspan="2">Red eyes</td>
+            </tr>
+            <tr>
+                <td>Height</td>
+                <td>Weight</td>
+            </tr>
+            <tr>
+                <td>Males</td>
+                <td>1.9</td>
+                <td>0.003</td>
+                <td>40%</td>
+            </tr>
+            <tr>
+                <td>Females</td>
+                <td>1.7</td>
+                <td>0.002</td>
+                <td>43%</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <form action="https://www.google.com/search">
+        <input type="text" placeholder="enter google search" name="q">
+        <button>Submit</button>
+        <hr>
+    </form>
+    <br>
+    <hr>
+    <form action="/server">
+        <h3>Registration Form</h1>
+        <div>
+            <label for="name"></label>
+            <input type="text" id="name" placeholder="First name" name="fname">
+            <input type="text" id="name" placeholder="Lirst name" name="lname">
+        </div>
+        <div>
+            <label for="gender">Please select gender</label>
+            <select name="gen" id="gender">
+                <option value="m" selected>Male</option>
+                <option value="f">Female</option>
+                <option value="o">Others</option>
+            </select>
+        </div>
+        <div>
+            Do you agree to all term of service?
+            <input type="checkbox" name="tos_agree" id="tos_agree">
+            <label for="tos_agree">Yes, I agree</label>
+        </div>
+        <button type="submit">Register</button>
+    </form>
+
+</body>
+</html>
