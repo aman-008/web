@@ -1,0 +1,36 @@
+div{
+    border: 2px solid black;
+}
+
+.traffic-light{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    /* border: 3px solid black; */
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    border-radius: 10px;
+    padding: 10px;
+}
+#div1{
+    width: 100px;
+    height: 100px;
+    border: 3px solid black;
+    border-radius: 50%;
+    background-color: green;
+}
+#div2{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: yellow;
+    border: 3px solid black;
+}
+#div3{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: red;
+    border: 3px solid black;
+}
